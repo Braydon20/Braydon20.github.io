@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="https://www.google.com" method="post">
+        <div>
+            <label for="text">First Name:</label>
+            <input type="text" placeholder="John">
+            <label for="text">Last Name:</label>
+            <input type="text" placeholder="Smith">
+        </div>
+
+        <div>
+            Male <input type="radio" name="gender" value="Male">
+            Female <input type="radio" name="gender" value="Female">
+            Other <input type="radio" name="gender" value="Other">
+        </div>
+
+        <div>
+            <label for="text">Email:</label>
+            <input type="email" id="text" name="emailaddress" placeholder="your email">
+            <label for="text">Password:</label>
+            <input type="password" id="pass" placeholder="Password" required maxlength="16">
+        </div>
+
+        <div>
+            <label for="text">Birthday:</label>
+            <select>
+
+                <option value=""> Month</option>
+                <option value="January"> January</option>
+                <option value="february">February</option>
+            </select>
+
+            <select>
+                <option value="Day"> Day</option>
+                <option value="1"> 1</option>
+                <option value="1"> 2</option>
+
+            </select>
+
+            <select>
+                <option value=""> Year</option>
+                <option value="1950">1900</option>
+                <option value="1950">1901</option>
+
+            </select>
+        </div>
+        <div>
+            <label for="text">I agree to the terms and conditions:</label>
+            <input type="checkbox">
+        </div>
+        <div>
+
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
